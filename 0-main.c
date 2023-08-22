@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -31,4 +32,19 @@ int main(void)
     printf("-> %lu elements\n", n);
     free(new);
     return (EXIT_SUCCESS);
+=======
+#include "main.h"
+#include <stdio.h>
+
+/**
+* main - check the code
+*
+* Return: Always EXIT_SUCCESS.
+*/
+
+int main(void)
+{
+	printf("%d\n", _strlen("My Dyn Lib"));
+	return (EXIT_SUCCESS);
+>>>>>>> e
 }
